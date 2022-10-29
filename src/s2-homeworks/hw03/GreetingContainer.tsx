@@ -14,7 +14,7 @@ export const pureAddUser = (
     addUserCallback: (name: string) => void
 ) => {
     if (!name) {
-        setError('Error Field is empty')
+        setError('Error! Field is empty!')
         return
     }
     addUserCallback(name)
@@ -24,7 +24,7 @@ export const pureAddUser = (
 
 export const pureOnBlur = (name: string, setError: (error: string) => void) => { // если имя пустое - показать ошибку
 if(!name) {
-    setError('Error Field is empty')
+    setError('Error! Field is empty!')
 }
 }
 
