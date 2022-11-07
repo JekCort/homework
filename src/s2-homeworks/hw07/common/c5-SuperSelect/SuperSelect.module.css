@@ -1,7 +1,20 @@
 .select {
+    margin: 32px 110px 0 70px;
+    padding: 2px 0 2px 10px;
+    width: 180px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #000000;
+    cursor: pointer;
+
 }
 
 .select:focus {
+
 }
 
 
